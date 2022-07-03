@@ -2,6 +2,7 @@
 using namespace std;
 
 int find_pivot(int arr[], int size)
+
 {
     int s = 0, e = size - 1;
 
