@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int arrang()
+{
+}
+
 int maxSum(int a[], int n)
 {
     int ans = 0;
