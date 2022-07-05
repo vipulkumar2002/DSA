@@ -1,0 +1,16 @@
+Ques:  Why we write mid like this?
+Ans:  lets say
+        int mid = 0;
+        int start = 2^31 -1 (range of int) ;
+        int end = 2^31 -1 (range of int);
+
+    Now,
+        mid = (start + end)/2   // ye int ke range se bahar chala jayega
+    Thats why,
+        mid = start + (end - start)/2
+
+
+------------------------------------------------------------------------------
+
+
+
