@@ -119,5 +119,55 @@ int main()
 
     // ==============================================================
 
+    //     int n;
+
+    //     cin >> n;
+
+    //     for (int i = 1; i <= n; i++)
+    //     {
+
+    //         cout << endl;
+    //         for (int j = 0; j <= i - 1; j++)
+    //         {
+    //             cout << "*";
+    //         }
+    //     }
+
+    //     return 0;
+    // }
+
+    // =======================================================
+
+    /*  int arr[5];
+
+     cout << "Enter array elements : " << endl;
+     for (int i = 0; i < 5; i++)
+     {
+         cin >> arr[i];
+     }
+     cout << endl;
+
+     for (int i = 0; i < 5; i++)
+     {
+         cout << arr[4 - i] << " ";
+     } */
+
+    double arr[5];
+    double average = 0;
+
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> arr[i];
+    }
+
+    int size = sizeof(arr) / sizeof(double);
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += arr[i];
+    }
+    average = total / size;
+    cout << average;
+
     return 0;
 }
