@@ -18,4 +18,22 @@ Ans:  lets say
 
 --------------------------------------------------------------------------
 
-two dimention array is look like row and colom, but its actually in single row ;
+=> Two dimention array is look like row and colom, but its actually in single row ;
+
+
+
+---------------------------------------------------------------------------
+
+=> Kisi bhi funtion me jab ham array pass karte hai to, vo as an pointer jata hai.
+
+
+
+--------------------------------------------------------------------------
+=> Default acess private hoga in C++.
+
+---------------------------------------------------------------------------
+
+******************************* STL ************************************
+
+=> capacity function is not working for array.
+=> size function is not working for normal array. 
