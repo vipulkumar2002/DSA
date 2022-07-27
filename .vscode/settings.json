@@ -4,6 +4,7 @@
     "ostream": "cpp",
     "functional": "cpp",
     "bitset": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "array": "cpp"
   }
 }
