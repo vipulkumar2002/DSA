@@ -37,3 +37,12 @@ Ans:  lets say
 
 => capacity function is not working for array.
 => size function is not working for normal array. 
+
+
+
+! Quick Notes
+1) && (and) return True when both the statement are true otherwise return false.
+2) || (or) return True if any of the statement are true.
+3) % return remander
+4) / => 5/2 = 2
+5) 
