@@ -45,4 +45,9 @@ Ans:  lets say
 2) || (or) return True if any of the statement are true.
 3) % return remander
 4) / => 5/2 = 2
-5) 
+5) continue => skip to the next statement(part). 
+
+
+
+size() is just an alias of length() , you can use both of them 
+ex, st.length(), st.size();
