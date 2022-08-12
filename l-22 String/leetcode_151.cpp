@@ -1,15 +1,13 @@
 /*
-     Longest Palindrome
-
-     Given a string s which consists of lowercase or uppercase letters,
-     return the length of the longest palindrome that can be built with those letters.
+    151. Reverse Words in a String
+    Given an input string s, reverse the order of the words
  */
 #include <bits/stdc++.h>
 using namespace std;
 
 string reverseWords(string s)
 {
-    string result = "";
+    string result;
     int i = 0;
     int n = s.length();
 
@@ -17,25 +15,18 @@ string reverseWords(string s)
     {
         while (i < n && s[i] == ' ')
             i++;
-
+        if (i >= n)
+            break;
         int j = i + 1;
-
         while (j < n && s[j] != ' ')
             j++;
         string sub = s.substr(i, j - i);
-
         if (result.length() == 0)
-        {
             result = sub;
-        }
         else
-        {
             result = sub + " " + result;
-        }
-
         i = j + 1;
     }
-
     return result;
 }
 
@@ -43,7 +34,6 @@ int main()
 {
     string str = "   hello   world    ";
 
-    cout << 1 << reverseWords(str) << 1 << endl;
-    // cout << reverseWords(str).length();
+    cout << reverseWords(str) << endl;
     return 0;
 }
