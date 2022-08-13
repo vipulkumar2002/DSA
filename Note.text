@@ -49,5 +49,43 @@ Ans:  lets say
 
 
 
+Both s.size() and s.length() are synonyms and return the exact same value.
 size() is just an alias of length() , you can use both of them 
 ex, st.length(), st.size();
+
+******************* find() function in string start ***************************
+
+// return index of starting of main string
+    string mainStr = "congress for geeks geeks" ;
+    string subStr = "geeks";
+    mainStr.find(subStr);
+    output = 14;
+
+******************* find() function in string end ***************************
+
+ 
+******************* erase() function in string start ***************************
+
+// Deletes all characters
+    string str("Hello World");
+    str.erase();
+    After erase : 
+
+// Deletes all characters except first one 
+    str.erase(1);
+    After erase : H
+
+// Deletes 4 characters from index number 1
+    str.erase(1, 4);
+    After erase : H World
+
+// Deletes character at position 4
+    str.erase(str.begin() + 4);
+    After erase : Hell World
+
+// Deletes all characters between 0th index and str.end() - 6
+    str.erase(str.begin() + 0, str.end() - 6);
+    After erase : World
+
+
+******************* erase() function in string end ***************************
