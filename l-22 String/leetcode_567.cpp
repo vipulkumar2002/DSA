@@ -30,3 +30,5 @@ int main()
     cout << checkInclusion(s1, s2);
     return 0;
 }
+
+not solved !
