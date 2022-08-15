@@ -89,3 +89,10 @@ ex, st.length(), st.size();
 
 
 ******************* erase() function in string end ***************************
+
+
+
+=> in 2D array , we must have to pass the colum size(value) or null of an array.
+    otherwise it will give an array.
+    for example   int fun(arr[][]);    error
+                  int fun(arr[][n]);    no error
