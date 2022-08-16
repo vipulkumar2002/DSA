@@ -1,3 +1,9 @@
+not done
+leetcode 1047 using two pointer
+239. Sliding Window Maximum 
+
+
+
 Ques:  Why we write mid like this?
 Ans:  lets say
         int mid = 0;
